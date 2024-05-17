@@ -1,0 +1,59 @@
+/* src/App.css */
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.weather-container {
+    position: relative;
+    width: 400px;
+    text-align: center;
+    background-image: url('C:/Projects/weather-app/src/assets/amir-kalhor-Otl-rfJEexo-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.weather-container h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+input[type="text"],
+button {
+    color: white;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: calc(100% - 22px); 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    display: block; 
+    margin: 0 auto; 
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
