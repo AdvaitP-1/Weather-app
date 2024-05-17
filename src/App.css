@@ -12,7 +12,7 @@
     position: relative;
     width: 400px;
     text-align: center;
-    background-image: url('C:/Projects/weather-app/src/assets/amir-kalhor-Otl-rfJEexo-unsplash.jpg');
+    background-image: url('../weather-app/src/assets/amir-kalhor-Otl-rfJEexo-unsplash.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px;
