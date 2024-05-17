@@ -1,4 +1,6 @@
 Weather App
+
+
 Welcome to the Weather App project! This application provides current weather data through a user-friendly interface. It is built with a React frontend and a Node.js backend, and it fetches weather information from an external API.
 
 
