@@ -7,7 +7,7 @@ const Weather = () => {
     const [weatherData, setWeatherData] = useState(null);
     const [error, setError] = useState(null);
 
-    const apiKey = 'c0ee7aa0acf94552b6312745241705';
+    const apiKey = 'Enter you api key';
 
     const getWeather = async () => {
         try {
